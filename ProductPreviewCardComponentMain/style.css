@@ -1,0 +1,122 @@
+body, html {
+    height: 100%;
+    background-color: hsl(30, 38%, 92%);
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfume {
+    font-family: montserrat;
+    font-size: 13px;
+    width: 13rem;
+    margin: 0;
+    padding: 0;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 3px;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: Fraunces;
+    width: 13rem;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.txt {
+    font-family: montserrat;
+    font-size: 13px;
+    line-height: 20px;
+    width: 13rem;
+    margin: 0;
+    color: hsl(228, 12%, 48%);
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 32rem;
+    height: 24rem;
+    border-radius: 0.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+img {
+    width: 15em;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.v1 {
+    color: hsl(158, 36%, 37%);
+    font-size: 28px;
+    font-family: Fraunces;
+    font-weight: 700;
+    margin-right: 0.7rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.v2 {
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    margin: 0;
+}
+
+.button-container {
+    position: relative;
+}
+
+.button-txt {
+    all: unset;
+    background-color: hsl(158, 36%, 37%);
+    font-family: montserrat;
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+    padding: 0.7rem 3rem 0.7rem 2rem;
+    border-radius: 0.2rem;
+    padding-left: 70px;
+    transition: background-color 0.3s;
+}
+
+.cart {
+    position: absolute;
+    width: 18px;
+    left: 45px;
+    top: 9px;
+}
+
+.button-txt:hover {
+    background-color: hsl(158, 42%, 18%);
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
